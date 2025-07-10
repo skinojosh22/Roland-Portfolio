@@ -200,6 +200,48 @@ body {
   }
 }
 
+
+.hero-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.sentence p {
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+  line-height: 1.8;
+}
+
+.bold {
+  font-weight: 700;
+  color: #d4af37;
+}
+
+@media (max-width: 768px) {
+  .sentence p {
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 0 16px;
+  }
+
+  .cta-container {
+    margin-top: 20px;
+  }
+
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .image-container img {
+    width: 80%;
+    height: auto;
+  }
+}
+
 .cta-container {
   text-align: center;
   margin-top: 20px;
