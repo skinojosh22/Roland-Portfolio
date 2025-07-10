@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Style/index.css">
+  <title>Document</title>
+</head>
+<body>
+   <div class="main">
+    <div class="left-section">
+      <div class="image-div">
+        <img class="explore" src="ICONS/Wheel2.png">
+      </div>
+      <div class="text">Ronald<span class="shrink">&co.</span></div>
+    </div>
+    <div class="right-section">
+  <nav class="nav-links">
+    <a href="Index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="">Services</a>
+    <a href="">Portfolio</a>
+    <a href="contact.html" class="active">Contact Us</a>
+  </nav>
+
+  <!-- Hamburger icon (shown only on Android/mobile) -->
+  <div class="menu-icon" onclick="toggleDown()">☰</div>
+
+  <!-- Dropdown menu -->
+  <div id="dropdown" class="dropdown-menu">
+    <a href="Index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="">Services</a>
+    <a href="">Portfolio</a>
+   <a href="contact.html" class="active">Contact Us</a>
+  </div>
+</div>
+
+  </div>
+
+   <script src="Scripts/dropdown.js"></script>
+</body>
+</html>
