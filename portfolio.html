@@ -7,6 +7,8 @@
   <meta name="keywords" content="Digital Marketing, Branding, Nigeria, Public Speaking, Personal Brand, Ronald&Co.">
 
   <link rel="stylesheet" href="Style/index.css">
+  <link rel="stylesheet" href="Style/portfolio.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
   <link rel="stylesheet" href="Style/footer.css">
    <link rel="icon" type="image/png" href="ICONS/Wheel2.png">
   <title>Ronald&Co. - Digital Marketing Experts</title>
@@ -38,10 +40,19 @@
     <a href="services.html">Services</a>
     <a href="portfolio.html" class="active">Portfolio</a>
     <a href="contact.html">Contact Us</a>
-  </div>
-</div>
+      </div>
+    </div>
+ </div>
 
+<section id="portfolio">
+  <h2>Our Work</h2>
+  <p class="subheading">Real projects. Real impact.</p>
+
+  <div class="portfolio-grid">
+    <!-- Portfolio items will be injected by portfolio.js -->
   </div>
+</section>
+
 
 <footer>
   <div class="footer-content">
@@ -59,7 +70,12 @@
   </div>
 </footer>
 
-
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
    <script src="Scripts/dropdown.js"></script>
+<script src="Scripts/portfolio-info.js"></script>
+<script src="Scripts/portfolio.js"></script>
 </body>
 </html>
