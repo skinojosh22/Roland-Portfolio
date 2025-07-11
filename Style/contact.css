@@ -1,0 +1,81 @@
+/* contact.css - Updated styles for the contact page to match site color template and allow background image visibility */
+
+.contact-section {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 32px;
+  background: rgba(255, 255, 255, 0.7); /* semi-transparent for background image visibility */
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-form label {
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: #000;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.6);
+  color: #000;
+}
+
+.contact-form button {
+  background: rgb(226, 193, 2); /* site accent color */
+  color: #000;
+  border: none;
+  padding: 12px 0;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.contact-form button:hover {
+  background: #bfa100; /* deeper gold for hover */
+}
+
+.contact-info {
+  background: rgba(255, 248, 214, 0.7); /* matches #fff8d6, semi-transparent */
+  padding: 20px;
+  border-radius: 8px;
+  color: #000;
+}
+.contact-info h2 {
+  margin-top: 0;
+  color: rgb(226, 193, 2);
+}
+.contact-info p,
+.contact-info .social-links {
+  margin: 8px 0;
+}
+.social-links a {
+  color: rgb(226, 193, 2);
+  text-decoration: none;
+  margin-right: 8px;
+  font-weight: 600;
+}
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .contact-section {
+    padding: 16px;
+    max-width: 98vw;
+  }
+}

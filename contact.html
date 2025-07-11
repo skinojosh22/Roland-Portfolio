@@ -8,6 +8,7 @@
 
   <link rel="stylesheet" href="Style/index.css">
   <link rel="stylesheet" href="Style/footer.css">
+  <link rel="stylesheet" href="Style/contact.css">
    <link rel="icon" type="image/png" href="ICONS/Wheel2.png">
   <title>Ronald&Co. - Digital Marketing Experts</title>
 </head>
@@ -40,9 +41,29 @@
    <a href="contact.html" class="active">Contact Us</a>
   </div>
 </div>
-
-  </div>
-
+</div>
+<main>
+  <section class="contact-section">
+    <form class="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="contact-info">
+      <h2>Other Ways to Reach Me</h2>
+      <p>Email: <a href="mailto:skinojosh22@gmail.com">skinojosh22@gmail.com</a></p>
+      <p>Phone: <a href="tel:+2347073768067">+234 707 376 8067</a></p>
+      <div class="social-links">
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a> |
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+      </div>
+    </div>
+  </section>
+</main>
 
   <footer>
   <div class="footer-content">
@@ -60,5 +81,6 @@
   </div>
 </footer>
    <script src="Scripts/dropdown.js"></script>
+   <script src="Scripts/contact.js"></script>
 </body>
 </html>
